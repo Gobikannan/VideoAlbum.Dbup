@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Migrations\v1\1_Create_AlbumType_Table.sql" />
+    <None Remove="Migrations\v1\2_Create_Album_Table.sql" />
+    <None Remove="Migrations\v1\3_Add_Default_Album_Types.sql" />
+    <None Remove="Scripts\StoredProcedures\AddNewAlbum.sql" />
+    <None Remove="Scripts\StoredProcedures\DeleteAlbum.sql" />
+    <None Remove="Scripts\StoredProcedures\UpdateAlbum.sql" />
+    <None Remove="Scripts\Views\FetchAllAlbums.sql" />
+    <None Remove="Scripts\Views\FetchAllAlbumType.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\v1\1_Create_AlbumType_Table.sql" />
+    <EmbeddedResource Include="Migrations\v2\1_Add_Default_Album_Types.sql" />
+    <EmbeddedResource Include="Migrations\v1\2_Create_Album_Table.sql" />
+    <EmbeddedResource Include="Scripts\StoredProcedures\DeleteAlbum.sql" />
+    <EmbeddedResource Include="Scripts\StoredProcedures\UpdateAlbum.sql" />
+    <EmbeddedResource Include="Scripts\StoredProcedures\AddNewAlbum.sql" />
+    <EmbeddedResource Include="Scripts\Views\FetchAllAlbumType.sql" />
+    <EmbeddedResource Include="Scripts\Views\FetchAllAlbums.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Scripts\Functions\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="dbup" Version="4.4.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.2" />
+  </ItemGroup>
+
+</Project>

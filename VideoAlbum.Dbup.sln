@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoAlbum.Dbup", "VideoAlbum.Dbup.csproj", "{A24DE627-4C9C-47A2-B944-37705B840DC7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A24DE627-4C9C-47A2-B944-37705B840DC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24DE627-4C9C-47A2-B944-37705B840DC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24DE627-4C9C-47A2-B944-37705B840DC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24DE627-4C9C-47A2-B944-37705B840DC7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7B1066F-EB12-43C6-8E83-9E21F26F7CB0}
+	EndGlobalSection
+EndGlobal

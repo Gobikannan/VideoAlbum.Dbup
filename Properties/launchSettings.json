@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "VideoAlbum.Dbup": {
+      "commandName": "Project",
+      "commandLineArgs": "\"data source=LOCAL-SQLEXPRESS;initial catalog=VideoAlbum;persist security info=True;user id=<USERNAME>;password=<PASSWORD>;\""
+    }
+  }
+}
